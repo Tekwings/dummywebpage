@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <!--this is standard statement recommanded by bootstrap-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> module3-solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+    <!--this is standard statement recommanded by bootstrap
+    in this id is define by user, this command do is that it place 
+     bar in header of body-->
+<header>
+    <nav id="barstrip" class="navbar navbar-default">
+
+        <!--this is recommanded by bootstrap to tell brand name 
+        in navbar header and brand name should always be under navbar- brand
+    recommanded by bootstrap -->
+
+        <div class="container">
+            <div class="navbar-header">
+                    <div class="navbar-brand">
+                  <a href="index.html" class="visible-lg visible-md visible-sm
+                  visible-xs">
+                <h1>Food, LLC</h1> 
+             </a>
+       </div>
+
+       <!--this is the standard command to present menu bar option at right
+    side of screen and only appear when screen size is 768px or below which
+     sayed by command line navbar-toggle as recommanded by bootstrap 
+     and also we can add or reduce <span class ="icon bar"</span>
+    as it is list inside menu bar according to our requirment and to name
+list of item inside menu bar we have to assign data-target command as per
+bootstrap to tell menu name inside the list so i have define data- toggle as
+#menu-list-name -->
+
+    <button type="button" class="navbar-toggle collapsed" 
+    data-toggle="collapse" data-target="#menu-list-name" 
+    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div><!--navbar-header-->
+       
+      <div id="menu-list-name" class="collapse navbar-collapse">
+        
+        <ul id="menu-list" class="nav navbar-nav navbar-right visible-xs">
+          
+            <li>
+                <a href="#Breakfast">Breakfast</a>
+          </li>
+
+          <li>
+                  <a href="#Lunch"> Lunch</a>
+          </li>
+
+          <li>
+                   <a href="#Dinner">Dinner</a>
+          </li>
+         </ul> <!--menu-list-->
+      </div><!--menu-list-name-->
+    </div><!--container-->
+ </nav><!--barstrip-->
+
+</header>
+    
+  <h2>Our Menu</h2>
+    
+    <div class="container">
+        <section>
+            <div id="Breakfast">Breakfast</div>
+            <p> Breakfast is often called ‘the most important meal of the day’, and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health.<br><br>
+
+                Many studies have shown the health benefits of eating breakfast. It improves your energy levels and ability to concentrate in the short term, and can help with better weight management, reduced risk of type 2 diabetes and heart disease in the long term.<br><br>
+                
+                Despite the benefits of breakfast for your health and wellbeing, many people often skip it, for a variety of reasons. The good news is there are plenty of ways to make it easier to fit breakfast into your day.
+                
+                </p>
+        </section>
+        
+        <section>
+            <div id="Lunch">Lunch</div>
+            <p> The abbreviation lunch is taken from the more formal Northern English word luncheon, which is derived from the Anglo-Saxon word nuncheon or nunchin meaning 'noon drink'.[2] The term has been in common use since 1823.[3][a] The Oxford English Dictionary (OED) reports usage of the words beginning in 1580 to describe a meal that was eaten between more substantial meals. It may also mean a piece of cheese or bread.[3]<br><br>
+
+                In medieval Germany, there are references to similariar, a sir lunchentach according to the OED, a noon draught – of ale, with bread – an extra meal between midday dinner and supper, especially during the long hours of hard labour during haying or early harvesting.</p>
+        </section>
+        
+        <section>
+            <div id="Dinner">Dinner</div>
+            <p>Dinner usually refers to what is in many Western cultures the largest and most formal meal of the day, which some Westerners eat in the evening. Historically the largest meal used to be eaten around midday, and called dinner.[1] In Western cultures, especially among the elite, it gradually migrated later in the day over the 16th to 19th centuries.[2] However, the word "dinner" can have different meanings depending on culture, and may mean a meal of any size eaten at any time of day.[3] In particular, it is still sometimes used for a meal at noon or in the early afternoon on special occasions, such as a Christmas dinner.[2] In hot climates, people have always tended to eat the main meal in the evening, after the temperature has fallen. </p>
+        </section>
+    </div>
+     <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
