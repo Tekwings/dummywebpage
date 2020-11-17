@@ -1,0 +1,118 @@
+/* this body tell over all or global style of page*/
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/* this #barstrip tell you color of bootstrap barstrip color,
+size of font inside the barstrip, border on strip and radius of strip or curve
+ness of bar on edges of rectangular bar*/
+#barstrip{
+    background-color: #61122f;
+    border: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
+
+
+}
+
+/* this .navbar-brand is tag recommanded by bootstap to use it to 
+write name of you brand under it and design it as done in bolow*/
+
+.navbar-brand h1{
+    color: blanchedalmond;
+    margin-top: -10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/*this command let  you that inside navbar- header i.e barstrip there
+is botton which is specified by class navbar toggle and inside this button
+there are icon bar this is default recommandation by bootstrap so from this
+we make changes in this button appearance*/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+   border: 2px solid blanchedalmond;
+   
+}
+
+/* this comand tell you that when you are on botton of menu bar the background
+color of button should change to black*/
+
+.navbar-header button.navbar-toggle:hover
+{
+    background-color:black;
+}
+
+
+/* this command line can help you to make  changes in hypertext which we created
+that when we click on brand name the same index.html page will appear 
+so we  remove underline of brand to none when we bring mouse near brand*/
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+    
+}
+
+
+
+/*this command line tell about menu list when we click on toggle button
+the menu list appear*/
+#menu-list {
+    background-color: black;
+    margin-top: 0px; 
+    margin-bottom: 0px;     
+}
+/*this command tell about menu list content like breakfast, 
+lunch and Dinner so can make changes in content of menu list*/
+#menu-list a {
+    color: blanchedalmond;
+    text-align: center;
+    border-bottom: 1px  solid white; 
+    border-right: 1px solid white; 
+    border-left: 1px solid white;
+    font-weight: bold;
+}
+  /*this command line tell about when you bring mouse on menu list content
+  the content background color should change*/
+#menu-list a:hover {
+    background :#61122f;   
+}
+
+
+/*this command let me adujest our menu*/
+
+h2{ 
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+/* this command let me adjust each section behaviour*/
+section{
+        font-weight: bold;
+        font-family: 'Lucida Sans','Lucida Sans Regular','Sans Unicode';
+        font-size: large;
+        text-align: center;
+        color: blanchedalmond;
+        border: 1px solid white;
+        margin-bottom:30px;
+        padding-top: 10px;
+        background-color: #61122f;
+}
+
+p{
+    color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right:50px;
+    text-align: left;
+    font-size: medium;
+    font-weight:lighter;
+}
+
